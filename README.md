@@ -39,20 +39,26 @@ By combining them, the system delivers **more accurate and context-aware results
        "In 2021, I watched Jujutsu Kaisen"
    ]
    retriever.add_texts(sentences)
-
-
-
-
+.
+.
+.
+.
+.
 5.  **Hybrid Search Query**
 
 retriever.invoke("Which anime did I watch in 2022?")
-
+.
+.
+.
+.
 
 ✅ Output:
 In 2022, I watched Demon Slayer: Entertainment District Arc
-
-
-
+.
+.
+.
+.
+.
 
 ⚙️ **Tech Stack**
 
@@ -63,10 +69,11 @@ Pinecone                 	 Vector database for dense & sparse retrieval
 Hugging Face               Transformers	Generate semantic embeddings
 BM25 Encoder               (Pinecone Text)	Perform keyword-based retrieval
 dotenv	                   Manage environment variables securely
-
-
-
-
+.
+.
+.
+.
+.
 **🧠 What is RAG?**
 
 Retrieval-Augmented Generation (RAG) combines:
@@ -76,11 +83,12 @@ Retriever → fetches relevant documents using hybrid search
 Generator → an LLM (like GPT, LLaMA, or Gemini) that uses retrieved data to generate accurate, grounded answers
 
 This project focuses on building the retrieval layer — the most critical part of any RAG pipeline.
-
-
-
-
-
+.
+.
+.
+.
+.
+.
 **🔍 Key Features**
 
 ✅ Combines semantic and keyword-based retrieval
@@ -92,10 +100,12 @@ This project focuses on building the retrieval layer — the most critical part 
 🔧 Implements BM25 sparse retrieval for keyword precision
 
 💬 Forms the foundation of a RAG-based AI system
-
-
-
-
+.
+.
+.
+.
+.
+.
 **🧱 Setup Instructions**
 
 
@@ -127,8 +137,11 @@ python hybrid_search_with_rag_.py
 🧾 Example Output
 Query: Which anime did I watch in 2022?
 Result: In 2022, I watched Demon Slayer: Entertainment District Arc
-
-
+.
+.
+.
+.
+.
 
 💡 Use Cases
 
@@ -151,10 +164,13 @@ Add document chunking and metadata filtering
 Implement hybrid reranking using cross-encoders
 
 Extend retrieval to multi-modal (text + image) data
-
-
-
-
+.
+.
+.
+.
+.
+.
+.
 📚 Learning Outcomes
 
 Through this project, you’ll gain hands-on understanding of:
@@ -168,32 +184,38 @@ Embedding models and BM25 encoding
 RAG architecture fundamentals
 
 Real-world AI search pipelines
-
-
-
-
-
+.
+.
+.
+.
+.
+.
 🤝 Contributing
 
 Contributions are welcome!
 If you’d like to improve this project or extend it into a full RAG pipeline, feel free to fork and submit a pull request.
-
-
-
+.
+.
+.
+.
+.
 
 📄 License
 
 This project is licensed under the MIT License – free to use and modify.
-
-
-
-
+.
+.
+.
+.
+.
+.
 🧑‍💻 Author
 
 AI Engineer | Building Intelligent Systems with LLMs, RAG, and Hybrid Retrieval
-
-
-
+.
+.
+.
+.
 
 🌐 Connect With Me
 
